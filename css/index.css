@@ -335,6 +335,15 @@ div#navbarNavDropdown {
   #mobileMenu2 {
     display: none;
   }
+  /* ED & DataDoc logo for small screen*/
+  #ED {
+    display: inline-block;
+    width: 110px;
+  }
+  #DataDoc {
+    display: inline-block;
+    width: 110px;
+  }
 
   #menu {
     display: none;
