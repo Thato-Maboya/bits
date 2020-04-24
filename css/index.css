@@ -186,7 +186,7 @@ button {
 
 #contactBlock {
   width: 669px;
-  height: 420px;
+  height: 470px;
   margin-top: 60px;
   -webkit-box-shadow: -5px -4px 5px #00000045, 0 1px 5px #00000038;
           box-shadow: -5px -4px 5px #00000045, 0 1px 5px #00000038;
@@ -228,7 +228,7 @@ button {
 
 #contactBlock form input {
   height: 40px;
-  width: 318px;
+  width: 40%;
   border: 0px;
   border-bottom: 1px solid #063C56;
   margin-bottom: 26px;
@@ -238,7 +238,7 @@ button {
 }
 
 #contactBlock form textarea {
-  width: 318px;
+  width: 40%;
   color: #063C56;
   padding-left: 5px;
   border: 0px;
