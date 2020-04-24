@@ -338,11 +338,19 @@ div#navbarNavDropdown {
   /* ED & DataDoc logo for small screen*/
   #ED {
     display: inline-block;
-    width: 110px;
+    width: 120px;
   }
   #DataDoc {
     display: inline-block;
-    width: 110px;
+    width: 120px;
+  }
+  #ED1 {
+    display: inline-block;
+    width: 80px;
+  }
+  #DataDoc1 {
+    display: inline-block;
+    width: 80px;
   }
 
   #menu {
