@@ -228,7 +228,7 @@ button {
 
 #contactBlock form input {
   height: 40px;
-  width: 100%;
+  width: 318px;
   border: 0px;
   border-bottom: 1px solid #063C56;
   margin-bottom: 26px;
@@ -238,7 +238,7 @@ button {
 }
 
 #contactBlock form textarea {
-  width: 100%;
+  width: 318px;
   color: #063C56;
   padding-left: 5px;
   border: 0px;
@@ -387,7 +387,7 @@ div#navbarNavDropdown {
   }
   #contactBlock form input {
     height: 40px;
-    width: 50px;
+    width: 200px;
     border: 0px;
     border-bottom: 1px solid #063C56;
     margin-bottom: 26px;
@@ -397,7 +397,7 @@ div#navbarNavDropdown {
   }
 
   #contactBlock form textarea {
-    width: 50px;
+    width: 200px;
     color: #063C56;
     padding-left: 5px;
     border: 0px;
