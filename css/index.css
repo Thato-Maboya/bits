@@ -352,6 +352,10 @@ div#navbarNavDropdown {
     display: inline-block;
     width: 70px;
   }
+  #REDCap {
+    display: inline-block;
+    width: 140px;
+  }
 
   #menu {
     display: none;
