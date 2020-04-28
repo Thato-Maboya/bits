@@ -481,7 +481,7 @@ div#navbarNavDropdown {
 
   }
   #hide {
-    display: inline-block;
+    display: none;
   }
 }
 
