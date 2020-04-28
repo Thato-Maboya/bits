@@ -15,6 +15,12 @@ body {
   font-family: "Main";
 }
 
+/* Card length on laptop*/
+.cardL{
+  min-height: 480px;
+
+}
+
 h1,
 h2,
 h3 {
@@ -269,6 +275,9 @@ button {
 #covid19Menu {
   display: inline-block;
 }
+#hide {
+  display: none;
+}
 
 /* Research id for modal page */
 
@@ -332,6 +341,9 @@ div#navbarNavDropdown {
   #covid19Menu {
     display: none;
   }
+  #hide {
+  display: none;
+}
   #mobileMenu2 {
     display: none;
   }
@@ -452,3 +464,23 @@ div#navbarNavDropdown {
   }
 }
 /*# sourceMappingURL=index.css.map */
+
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+.cardL{
+  min-height: 640px;
+
+}
+  .card{
+    min-height: 640px;
+
+  }
+  #hide {
+    display: inline-block;
+  }
+}
