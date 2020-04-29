@@ -540,11 +540,5 @@ div#navbarNavDropdown {
   #hide2 {
     display: block;
   }
-  button.btn.btn-outline-success.workshopBtn {
-      width: 300px;
-    }
-
-  button.btn.btn-success.Extend {
-    width: 300px;
-  }
+ 
 }
