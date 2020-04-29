@@ -521,7 +521,7 @@ div#navbarNavDropdown {
   }
 }
 
-@media (min-width: 20px) and (max-width: 425px) {
+@media (min-width: 300px) and (max-width: 425px) {
 
   .cardL{
     min-height: 640px;
@@ -539,16 +539,5 @@ div#navbarNavDropdown {
   }
   #hide2 {
     display: block;
-  }
- button.btn.btn-outline-success.workshopBtn {
-      width: 200px;
-      margin:auto;
-      display:block;
-    }
-
-  button.btn.btn-success.Extend {
-    width: 200px;
-    margin:auto;
-    display:block;
   }
 }
