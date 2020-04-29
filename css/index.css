@@ -278,6 +278,12 @@ button {
 #hide {
   display: none;
 }
+#hide1 {
+    display: none;
+  }
+  #hide2 {
+    display: none;
+  }
 
 /* Research id for modal page */
 
@@ -344,6 +350,12 @@ div#navbarNavDropdown {
   #hide {
   display: none;
 }
+  #hide1 {
+    display: none;
+  }
+  #hide2 {
+    display: none;
+  }
   #mobileMenu2 {
     display: none;
   }
@@ -502,5 +514,26 @@ div#navbarNavDropdown {
   }
   #hide {
     display: inline-block;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 425px) {
+
+  .cardL{
+    min-height: 640px;
+
+  }
+  .card{
+    min-height: 640px;
+
+  }
+  #hide {
+    display: inline-block;
+  }
+  #hide1 {
+    display: block;
+  }
+  #hide2 {
+    display: block;
   }
 }
