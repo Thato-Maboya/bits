@@ -524,11 +524,11 @@ div#navbarNavDropdown {
 @media (min-width: 300px) and (max-width: 425px) {
 
   .cardL{
-    min-height: 640px;
+    min-height: 500px;
 
   }
   .card{
-    min-height: 640px;
+    min-height: 500px;
 
   }
   #hide {
