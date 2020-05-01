@@ -506,7 +506,7 @@ div#navbarNavDropdown {
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 425px) and (max-width: 768px) and (orientation: landscape) {
+@media (min-width: 425px) and (max-width: 768px) {
 
 .cardL{
   min-height: 640px;
