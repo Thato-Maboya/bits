@@ -93,9 +93,9 @@ button.btn.btn-success.eventsBtn {
   width: 1260px;
 }
 
-/* .container {
+.container {
   width: 1260px;
-} */
+} 
 
 .w3-card:hover{
   cursor: pointer;
@@ -631,16 +631,16 @@ div#navbarNavDropdown {
     padding: 10px 0px;
   }
   button.btn.btn-outline-success.workshopBtn {
-    width: 100%;
+    width: 90%;
     display: block;
   }
 
   button.btn.btn-success.Extend {
-    width: 100%;
+    width: 90%;
     display: block;
   }
   button.btn.btn-success.eventsBtn {
-    width: 100%;
+    width: 90%;
     display: block;
   }
 }
