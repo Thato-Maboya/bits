@@ -1,32 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="icon" href="images/icon.png"/>
+    <title>Wits Biomedical Informatics - News & Events</title>
+    <script type="text/javascript" src="js/Jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <meta name="theme-color" content="#063C56"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-    <!-- font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151911858-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora&display=swap" rel="stylesheet">
+        gtag('config', 'UA-151911858-1');
+    </script>
 
-    <!-- Custom Styling -->
-    <link rel="stylesheet" href="css/events.css">
-
-    <title>Events and News</title>
 </head>
-<body>
-
-<!-- Facebook Page Plugin SDK -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
+<body style="background-color: #0B2C41">
 
 
-<!-- Page Wrapper -->
-<div class="page-wrapper">
+<div id="Content">
 
-    <!--Content -->
+    <!--navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a href="index.html"><img src="images/logo-stacked.png" alt="WitsBITS Stacked logo" class="logo"></a>
+        <!-- SA Corona Virus Link -->
+        <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success" id="mobileMenu">SA Covid-19</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" >
+                <li class="nav-item " >
+                    <a class="nav-link" href="index.html"><b style="font-size: x-large">Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><b style="font-size: x-large">About</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html"><b style="font-size: x-large">Contact</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <b style="font-size: x-large">Research</b>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="clinical.html">Clinical Research</a>
+                        <a class="dropdown-item" href="research.html">Research Informatics</a>
+                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                </li>
+            </ul>
+            <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success" id="mobileMenu2" style="width: 400px">SA Covid-19</button></a>
+        </div>
+    </nav>
+    <!-- <div class="topBar">
+        <div class="container">
+            <img src="images/logo-horisontal.png" class="logo">
+            <div id="dropdown">
+                <button id="mobileMenu">Menu</button>
+                <ul id='menu'>
+                    <li class='current'>Home</li>
+                    <li onclick='document.location = "" '>About</li>
+                    <li onclick='document.location = "clinical.html" '>Clinical</li>
+                    <li onclick='document.location = "research.html" '>Research</li>
+                    <li onclick='document.location = "Contact.html" '>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
 
-    <div class="content clearfix">
+    <br><br><br><br>
+    <div class="container-fluid">
+        <br id="hide1"><br id="hide2">
 
         <!-- Main Content Wrapper -->
         <div class="main-content-wrapper">
@@ -52,7 +114,7 @@
 
 
             <div class="section popular">
-                <h2 class="section-title">REDCap Workshops 2020 Events Dates</h2>
+                <h2 class="section-title">REDCap Workshops 2020 Dates</h2>
             </div>
 
             <div class="section topics">
@@ -81,23 +143,11 @@
             </div>
 
         </div>
-        <!-- // Sidebar Content -->
 
     </div>
 
-    <!--// Content -->
-
 </div>
-<!-- // Page wrapper -->
 
 
-<!-- JQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-
-<!-- Slick Carousel -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<!-- Custom Script -->
-<script src="js/script.js"></script>
 </body>
 </html>
