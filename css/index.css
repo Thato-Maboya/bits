@@ -85,6 +85,9 @@ button.btn.btn-outline-success.workshopBtn {
 button.btn.btn-success.Extend {
   width: 200px;
 }
+button.btn.btn-success.eventsBtn {
+  width: 200px;
+}
 
 .wrapper {
   width: 1260px;
