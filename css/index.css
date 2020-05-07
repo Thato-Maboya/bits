@@ -102,6 +102,75 @@ button.btn.btn-success.eventsBtn {
   box-shadow: 0 20px 30px 0 rgba(2,2,2,6.2)
 }
 
+/* EVENTS PAGE STYLING */
+/* main-content */
+.container-fluid{
+  width: 90%;
+  margin: 30px auto 30px;
+}
+
+.container-fluid .main-content{
+  width: 70%;
+  float: left;
+}
+
+.container-fluid .main-content.single{
+  height: 100%;
+  background: white;
+  padding: 20px 50px;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.container-fluid .main-content.single .post-title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* sidebar */
+.container-fluid .sidebar{
+  width: 30%;
+  float: left;
+}
+
+.container-fluid .sidebar.single{
+  padding: 0px 10px;
+}
+
+.container-fluid .sidebar .section{
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.container-fluid .sidebar .section-title{
+  margin: 10px 0px 10px 0px;
+}
+
+.container-fluid .sidebar .section.search{
+  margin-top: 80px;
+}
+
+.container-fluid .sidebar .section.topics ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.container-fluid .sidebar .section.topics ul li a{
+  display: block;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s;
+}
+
+.container-fluid .sidebar .section.topics ul li a:hover{
+  padding-left: 10px;
+  transition: all 0.3s;
+}
+
 @media screen and (max-width: 1280px) {
   .wrapper {
     width: 1220px;
@@ -542,5 +611,23 @@ div#navbarNavDropdown {
   }
   #hide2 {
     display: block;
+  }
+}
+
+
+@media (min-width: 20px) and (max-width: 650px) {
+
+  .container-fluid .main-content{
+    width: 100%;
+  }
+
+  .container-fluid .sidebar{
+    width: 100%;
+  }
+  .container-fluid .main-content.single{
+    padding: 20px 50px;
+  }
+  .container-fluid .sidebar.single{
+    padding: 10px 0px;
   }
 }
