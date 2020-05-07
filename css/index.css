@@ -630,4 +630,17 @@ div#navbarNavDropdown {
   .container-fluid .sidebar.single{
     padding: 10px 0px;
   }
+  button.btn.btn-outline-success.workshopBtn {
+    width: 100%;
+    display: block;
+  }
+
+  button.btn.btn-success.Extend {
+    width: 100%;
+    display: block;
+  }
+  button.btn.btn-success.eventsBtn {
+    width: 100%;
+    display: block;
+  }
 }
