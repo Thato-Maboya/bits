@@ -8,6 +8,17 @@
   src: url(./Roboto-Medium.ttf);
 }
 
+@font-face {
+  font-family: "HMed";
+  src: url(../fonts/HelveticaMedium.ttf);
+}
+
+@font-face {
+  font-family: "HBold";
+  src: url(../fonts/HelveticaBold.ttf);
+}
+
+
 body {
   width: 100%;
   padding: 0px;
@@ -21,11 +32,65 @@ body {
 
 }
 
+/*style updates*/
+.nav-link{
+  font-family: "HMed" !important;
+}
+
+.covid-19-btn{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #063C56;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+  background-color: white;
+}
+
+label{
+  color: white;
+}
+
+.list-group{
+  color: black;
+}
+
+#contactMesg,.aboutHeading{
+  color: white;
+}
+
+#mainText{
+  font-size: 15px;
+  line-height: 33px !important;
+}
+
+#Research, #Clinical{
+  font-family: "Main";
+  line-height: 27px;
+}
+
+
+.slider.footerBtns button {
+  background: transparent;
+  border: 0px;
+  color: white;
+  font-size: 12px;
+  padding: 0px;
+  width: 139px !important;
+}
+/**/
+
 h1,
 h2,
 h3 {
-  font-family: "Bold";
-  font-weight: lighter;
+  font-family: "Main" !important;
+  /* font-weight: lighter; */
 }
 
 h3 {
@@ -41,7 +106,7 @@ h3 {
 #Background div {
   width: 100%;
   height: 100%;
-  background: url(../images/blue.PNG);
+  /* background: url(../images/blue.PNG); */
   background-size: cover;
   background-position: 0px -4px;
   float: right;
@@ -418,7 +483,7 @@ div#navbarNavDropdown {
   }
   #Background div {
     width: 100%;
-    background: url(../images/blue.PNG);
+    /* background: url(../images/blue.PNG); */
     background-size: cover;
   }
   #mobileMenu {

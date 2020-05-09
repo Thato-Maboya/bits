@@ -7,7 +7,7 @@
     <title>Wits Biomedical Informatics - Contact</title>
     <script type="text/javascript" src="js/Jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <meta name="theme-color" content="#063C56"/>
+    <meta name="theme-color" content="#f8f9fa"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -48,14 +48,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav" >
                     <li class="nav-item" >
-                        <a class="nav-link" href="index.html"><b style="font-size: x-large">Home</b><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html"><b style="font-size: x-large">About</b></a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <b style="font-size: x-large">Research</b>
+                            Research
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="clinical.html">Clinical Research</a>
@@ -64,55 +64,56 @@
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="Contact.html"><b style="font-size: x-large">Contact</b></a>
+                        <a class="nav-link" href="Contact.html">Contact</a>
                     </li>
                 </ul>
-                <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success" id="mobileMenu2" style="width: 400px">SA Covid-19</button></a>
+                <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success covid-19-btn" id="mobileMenu2" style="width: 400px">SA Covid-19 updates</button></a>
             </div>
         </nav>
 
         <br><br><br><br>
         <div class="container-fluid">
-        <div class="wrapper">
+        <div class="wrapper" style="text-align: left;">
+            <br/>
+            <h1 class="sliderTitle aboutHeading">Contact WitsBits</h1>
+            <p id="contactMesg">Need to get in touch with us? We're all ears.</p>
 
-            <div id='contactBlock'>
-                    <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
-                        <a name="contact"><p>Contact</p></a>
-                        <input type="text" name="fullName" placeholder="Full Name" required><br/>
-                        <input type="email" name="email" placeholder="Email Address" required><br/>
-                        <textarea name="message" placeholder="Message"  required></textarea><br/>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fas fa-map-marked-alt"></i> 31 Princess of Wales Terrance, Parktown, Johannesburg, 2193 View map</li>
+                <li class="list-group-item"><i class="far fa-clock"></i> Mon - Fri: 8:00am - 4:30pm</li>
+                <li class="list-group-item"><i class="fas fa-phone-volume"></i> (011) 717 6634</li>
+              </ul>
 
-                    <div>
-                        <br><br>
-                        <h3>
-                            Address: 
-                        </h3>
-                        <p>
-                            31 Princess of Wales Terrance,<br/>
-                            Parktown, Johannesburg, 2193<br/>
-                            <a href="https://www.google.com/maps/place/Wits+Health+Consortium/@-26.1778952,28.0445513,17z/data=!3m1!4b1!4m5!3m4!1s0x1e950c1445953dd5:0x138455a3d18f93ea!8m2!3d-26.1779!4d28.04674" style="color: white;" target="_blank">View map</a>
-                        </p>
+              <br/>
+            <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" name="email"  class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Full name</label>
+                  <input type="text"  name="fullName" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" name="message"  id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+                <button class="btn btn-success">Send</button>
+              </form>
+              <br/>
+              <br/>
+            <!-- <div id='contactBlock'>
+                <form action="https://formspree.io/informatics.health@wits.ac.za" method="POST">
+                    <a name="contact">
+                        <p>Contact</p>
+                    </a>
+                    <input type="text" name="fullName" placeholder="Full Name" required><br />
+                    <input type="email" name="email" placeholder="Email Address" required><br />
+                    <textarea name="message" placeholder="Message" required></textarea><br />
+                    <button type="submit">Submit</button>
+                </form>
+            </div> -->
 
-                        <h3>
-                           Hours: 
-                        </h3>
-                        <p>
-                            Mon - Fri: 8:00am - 4:30pm<br/>
-                            Sat & Sun:  Closed
-                        </p>
-
-                        <h3>
-                            Contact: 
-                        </h3>
-                        <p>
-                            (011) 717 6634
-                        </p>
-
-                    </div>
-            </div>
-            
         </div>
         </div>
     </div>

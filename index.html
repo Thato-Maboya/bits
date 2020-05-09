@@ -7,7 +7,7 @@
     <title>Wits Biomedical Informatics - Welcome</title>
     <script type="text/javascript" src="js/Jquery.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <meta name="theme-color" content="#063C56"/>
+    <meta name="theme-color" content="#f8f9fa"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -51,14 +51,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav" >
                 <li class="nav-item active" >
-                  <a class="nav-link" href="index.html"><b style="font-size: x-large">Home</b><span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html"><b style="font-size: x-large">About</b></a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <b style="font-size: x-large">Research</b>
+                      Research
                   </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="clinical.html">Clinical Research</a>
@@ -67,10 +67,10 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Contact.html"><b style="font-size: x-large">Contact</b></a>
+                    <a class="nav-link" href="Contact.html">Contact</a>
                 </li>
               </ul>
-                <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success" id="mobileMenu2" style="width: 400px">SA Covid-19</button></a>
+                <a href="https://sacoronavirus.co.za/" target="_blank"><button class="btn btn-success covid-19-btn" id="mobileMenu2" style="width: 400px">SA Covid-19 updates</button></a>
             </div>
           </nav>
         <!-- <div class="topBar"> 
@@ -99,8 +99,8 @@
                                     <p id="miniText" style="font-size: larger">Welcome to the</p>
                                     <h3 id="subMini">Wits Division of</h3>
                                     <h1 id="boldTitle" style="color: black">Biomedical Informatics</h1>
-                                    <hr><br/>
-                                    <p id="mainText" style="font-size: larger"><br/><br>
+                                    <hr>
+                                    <p id="mainText"><br/><br>
                                         A multifaceted team of Doctors, Scientists,
                                         Developers and Researchers dedicated to
                                         improving healthcare through technology and
@@ -118,8 +118,8 @@
                                             <p id="miniText"></p><br/>
                                             <h3 id="subMini">Clinical Informatics</h3>
                                             <h1 id="boldTitle" style="color: black">Electronic Discharge</h1>
-                                            <hr><br/>
-                                            <p id="mainText" style="font-size: larger"><br/><br>
+                                            <hr>
+                                            <p id="mainText"><br/><br>
                                                 The team  has development electronic
                                                 healthcare systems for the Wits affiliated
                                                 hospitals, Charlotte Maxeke Academic Hospital, Helen Joseph Hospital
@@ -138,8 +138,8 @@
                                     <h3 id="subMini">Research Informatics</h3>
                                     <h1 id="boldTitle" style="color: black">REDCap</h1>
                                     <br id="hide">
-                                    <hr><br/>
-                                    <p id="mainText" style="font-size: larger" ><br/><br>
+                                    <hr>
+                                    <p id="mainText"><br/><br>
                                         The faculty hosts a web-based research  data
                                         management tool called REDCap, which is quicker
                                         and more secure than paper-based.<br/>
@@ -149,7 +149,7 @@
                     </div>
                 </div>
             </div>
-        <div class="slider">
+        <div class="slider footerBtns">
             <button class="btn btn-success Extend" onclick='document.location = "about.html" '>Read more about us</button>
             <a href="https://redcap.core.wits.ac.za/redcap/#eu_workshops" target="_blank"><button class="btn btn-outline-success workshopBtn">REDCap Workshops dates</button></a>
             <a href="events.html" target=""><button class="btn btn-success eventsBtn">News and Events</button></a>
@@ -192,8 +192,8 @@
                             <br/>
                             <br/>
 
-                        <h3 style="color: black"><u>Why use RedCap?</u></h3>
-                            <p>
+                        <h3 id="card-sub-heading">Why use RedCap?</h3>
+                            <p id="card-text">
                                     The following are some key reasons why researchers should utilize REDCap for their research studies:
                                     <ul style="color: black">
                                         <li><b>Secure</b></li>
@@ -240,8 +240,8 @@
                         </p><br/><br/>
 
 
-                        <h3><u>Why use ED (Electronic Discharge)?</u></h3>
-                        <p>
+                        <h3>Why use ED (Electronic Discharge)?</h3>
+                        <p id="card-text">
 
                             Benefits:
                             <ul>
@@ -264,8 +264,8 @@
                         </p>
                         <br/><br/>
 
-                        <h3><u>Why use DataDoc?</u></h3>
-                        <p>
+                        <h3>Why use DataDoc?</h3>
+                        <p id="card-text">
                                 The following are some key reasons why clinicians use DataDoc:
                                 <ul>
 
